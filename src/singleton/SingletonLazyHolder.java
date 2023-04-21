@@ -1,3 +1,5 @@
+package singleton;
+
 public class SingletonLazyHolder {
     private static class InnerHolder {
         public static SingletonLazyHolder instance = new SingletonLazyHolder();
